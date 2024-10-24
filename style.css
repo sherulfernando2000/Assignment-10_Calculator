@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    box-sizing: border-box;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator{
+    font-family: "Arial Black", "sans-serif";
+    background-color: rgba(0, 0, 0, 0.66);
+    border-radius: 20px;
+
+}
+
+#display{
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 2.5rem;
+    padding: 1rem;
+    border: 0;
+    background-color: #3a3a3a;
+    height: 5rem;
+    border-radius: 20px;
+    color: white;
+    text-align: right;
+
+}
+
+#keys{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+button{
+
+    width: 6rem;
+    height: 6rem;
+    background-color: rgba(0, 0, 0, 0.64);
+    border-radius: 100%;
+    box-sizing: border-box;
+    margin: 0.5rem 0rem 0.3rem 0.3rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin: auto;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 45, 0.64);
+}
+
+.btnOperator{
+    background-color: rgba(237, 171, 37, 0.87);
+}
+
+.btnOperator:hover{
+    background-color: rgb(237, 171, 37);
+}
+
+.btnClear{
+    background-color: rgba(139, 0, 0, 0.66);
+}
+
+.btnClear:hover{
+    background-color: darkred;
+}
+
